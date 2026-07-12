@@ -1,0 +1,22 @@
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+pytorch-lightning>=2.0.0
+timm>=0.9.0
+
+# Data / IO
+opencv-python>=4.7.0
+numpy>=1.23.0
+pyyaml>=6.0
+
+# Training utilities
+tqdm>=4.65.0
+
+# Complexity profiling (scripts/profile_complexity.py: FLOPs counting)
+thop>=0.1.1
+
+# Visualization (utils.py: save_result)
+matplotlib>=3.7.0
+
+# Reproduction / weight download convenience (stdlib urllib is used by
+# scripts/download_pretrained_weights.py; no extra package required there)

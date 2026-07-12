@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Datasets (never commit raw imagery/labels)
+dataset/
+*.tif
+*.tiff
+
+# Training artifacts
+lightning_logs/
+outputs/
+predictions/
+outputsWHU_CD/
+outputsCLCD/
+*.ckpt
+*.pth
+*.pt
+
+# Weights (see weights/README.md — binaries are downloaded/trained, not committed)
+weights/*.ckpt
+weights/*.pth
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
